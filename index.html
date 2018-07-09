@@ -300,15 +300,39 @@ testing of implementations.
             The Decentralized Identifier Working Group will deliver the following W3C normative specifications:
           </p>
           <dl>
-            <dt id="syntax" class="spec">Decentralized Identifiers 1.0</dt>
+            <dt id="syntax" class="spec">Decentralized Identifiers v1.0</dt>
             <dd>
               <p>
-                TBD: DESCRIPTION OF SPEC.
+Decentralized Identifiers (DIDs) are a new type of identifier for verifiable,
+"self-sovereign" digital identity. DIDs are fully under the control of the DID
+subject, independent from any centralized registry, identity provider, or
+certificate authority. DIDs are URLs that relate a DID subject to means for
+trustable interactions with that subject. DIDs resolve to DID Documents —
+simple documents that describe how to use that specific DID. Each DID Document
+contains at least three things: cryptographic material, authentication suites,
+and service endpoints. Cryptographic material combined with authentication
+suites provide a set of mechanisms to authenticate as the DID subject (e.g.
+public keys, pseudonymous biometric protocols, etc.). Service endpoints enable
+trusted interactions with the DID subject. This document specifies a common
+data model, format, and operations that all DIDs support.
               </p>
+
+              <p>
+The
+<a href="https://www.w3.org/community/credentials/">Credentials Community Group</a>
+has developed a
+<a href="https://w3c-ccg.github.io/did-spec/">Final Community Group Specification for Decentralized Identifiers</a>
+that has been shipped in multiple production-grade commercial systems that will
+serve as input for this document.
+             </p>
+
             </dd>
           </dl>
 
-          <p>Note that the WG may decide, based on editorial and readability considerations, to spin off sections into a separate Recommendations. </p>
+          <p>
+Note that the WG may decide, based on editorial and readability considerations,
+to spin off sections into separate Recommendations.
+          </p>
         </div>
 
         <div id="wg-other-deliverables">
@@ -318,10 +342,21 @@ testing of implementations.
           <p>
             Other non-normative documents may be created such as:
           </p>
-          <ul>
-            <li>TBD 1</li>
-            <li>TBD 2</li>
-          </ul>
+          <dl>
+            <dt id="syntax" class="spec">Decentralized Identifier Use Cases v1.0</dt>
+            <dd>
+              <p>
+The Working Group will develop a set of use cases and requirements to underpin
+its work. Abstract use cases will be supported by real world evidence of
+applicability. The
+<a href="https://www.w3.org/community/credentials/">Credentials Community Group</a>
+has developed a set of
+<a href="https://docs.google.com/document/d/1wz8sakevXzO2OSMP341w7M2LjAMZfEQaTQEm_AOs3_Q/edit">use cases and requirements</a>
+that will serve as input for this document.</p>
+              </p>
+
+            </dd>
+          </dl>
         </div>
 
         <div id="timeline">
