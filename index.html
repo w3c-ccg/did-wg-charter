@@ -141,8 +141,8 @@ DIDs are controlled by individuals, organizations, and machines, not leased from
 an authority (e.g. DNS Registrars).
           </li>
           <li>
-The controller of a DID can cryptographically authenticate themselves
-(e.g. DID-based website login) .
+DIDs enable cryptographic authentication of a DID controller
+(e.g. DID-based website login using a WebAuthn/FIDO token).
           </li>
           <li>
 DIDs provide discovery information for bootstrapping into secure and
@@ -169,7 +169,7 @@ The <strong>mission</strong> of the
 <a href="https://www.w3.org/2019/did-wg/">Decentralized Identifier Working Group</a>
 is to standardize the DID URI scheme as well as the data model and syntax of Decentralized Identifier
 Documents, which contain information related to DIDs that enable the
-aforementioned use cases.</p>
+aforementioned initial use cases.</p>
 
       <div class="noprint"> <p class="join"><a class="todo" href="https://www.w3.org/2004/01/pp-impl/#####/join">Join the Decentralized Identifier Working Group.</a></p>
       </div>
@@ -240,14 +240,16 @@ Recommend a way of authoring specifications for DID Methods and protocols
 that are conformant with the data model and syntax(es).
           </li>
           <li>
-Concentrate their efforts on the identified
-<a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a>
+Concentrate their efforts on the initial <a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a>
 with a particular focus on enabling Identity and Access Management. Use cases from
 other industries may be included if there is significant industry participation.
           </li>
           <li>
 Define extension points enabling authentication, signing and cryptography mechanisms, but not defining specific authentication, signing or cryptography mechanisms. (See "Out of Scope".)          
-          </li>          
+          </li> 
+          <li>    
+With the initial <a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a> document as input, the WG will produce a NOTE at the end of the process that is a refined Use Cases document.
+          </li>
         </ol>
 
         <div id="section-out-of-scope">
@@ -357,7 +359,7 @@ The Working Group will develop a set of use cases and requirements to underpin
 its work. Abstract use cases will be supported by real world evidence of
 applicability. The
 <a href="https://www.w3.org/community/credentials/">Credentials Community Group</a>
-has developed a set of
+has developed a set of initial 
 <a href="https://w3c-ccg.github.io/did-use-cases/">use cases and requirements</a>
 that will serve as input for this document.</p>
               </p>
