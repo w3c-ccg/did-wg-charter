@@ -165,14 +165,21 @@ written. This leads to some complexity that may not be initially clear:
       </p>
         <ul>
           <li>
-DIDs from different DID methods may not be interoperable.
+DIDs from different DID methods may not be interoperable, just as different URI
+schemes may not be interoperable.
           </li>
           <li>
-Entities may need multiple DIDs to support different relationships.
+Entities may need multiple DIDs to support different relationships, as the other
+party may only support certain DID methods.
           </li>
           <li>
 Entities may need multiple DIDs to support the different cryptographic schemes
-of different DID methods.
+of different DID methods, as not all parties will support the same cryptographic
+schemes.
+          </li>
+          <li>
+Managing multiple DIDs, and tracking which DID belongs to which relationship,
+under which cryptographic scheme, introduces logistical challenges.
           </li>
         </ul>
 
