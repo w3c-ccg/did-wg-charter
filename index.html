@@ -120,10 +120,15 @@
           <p>
 This is a <em>proposed</em> charter for a Decentralized Identifier Working Group, 
 currently undergoing development by the W3C Credentials Community Group; this is 
-the development version. It is available 
-<a href="https://github.com/w3c-ccg/did-wg-charter/">on GitHub</a>. You may raise 
-<a href="https://github.com/w3c-ccg/did-wg-charter/issues">issues on this document</a> 
-to help further discussion.
+the development version.
+          </p>
+          <p>
+It is available on <a href="https://github.com/w3c-ccg/did-wg-charter/">GitHub</a>.
+          </p>
+          <p>
+You may raise issues on this document 
+<a href="https://github.com/w3c-ccg/did-wg-charter/issues">issues</a> to help 
+further discussion.
           </p>
           <p>
 Items (mostly URLs), that will need updates if and when the charter is accepted, are 
@@ -189,48 +194,48 @@ aforementioned initial use cases.
         <table class="summary-table">
           <tr id="Duration">
             <th>
-              Start date
+Start date
             </th>
             <td>
-              15 April 2019
+15 April 2019
             </td>
           </tr>
           <tr id="Duration">
             <th>
-              End date
+End date
             </th>
             <td>
-              15 April 2021
+15 April 2021
             </td>
           </tr>
 
           <tr>
             <th>
-              Chairs
+Chairs
             </th>
             <td>
-              TBD<br/>
-              TBD
+TBD<br/>
+TBD
             </td>
           </tr>
           <tr>
             <th>
-              Team Contacts
+Team Contacts
             </th>
             <td>
-              <a href="mailto:TEAMCONTACT@w3.org">TBD</a> (0.2 <abbr title="Full-Time Equivalent">FTE</abbr>)
+<a href="mailto:TEAMCONTACT@w3.org">TBD</a> (0.2 <abbr title="Full-Time Equivalent">FTE</abbr>)
             </td>
           </tr>
           <tr>
             <th>
-              Meeting Schedule
+Meeting Schedule
             </th>
             <td>
-              <strong>Teleconferences:</strong> 1-hour calls will be held weekly
-              <br />
-              <strong>Face-to-face:</strong> we will meet during the W3C's annual Technical 
-              Plenary week; additional face-to-face meetings may be scheduled by consent of 
-              the participants, usually no more than 3 per year.
+<strong>Teleconferences:</strong> 1-hour calls will be held weekly
+<br />
+<strong>Face-to-face:</strong> we will meet during the W3C's annual Technical Plenary week; 
+additional face-to-face meetings may be scheduled by consent of the participants, usually 
+no more than 3 per year.
             </td>
           </tr>
         </table>
@@ -239,7 +244,9 @@ aforementioned initial use cases.
       <section id="scope" class="scope">
         <h2>Scope</h2>
 
-        <p>The Working Group will:</p>
+        <p>
+The Working Group will:
+        </p>
         <ol>
           <li>
 Define the DID URI scheme.
@@ -264,12 +271,14 @@ with a particular focus on enabling Identity and Access Management. Use cases fr
 other industries may be included if there is significant industry participation.
           </li>
           <li>
-Define extension points enabling authentication, signing and cryptography mechanisms, but not 
-defining specific authentication, signing or cryptography mechanisms. (See "Out of Scope".)          
+Define extension points enabling authentication, signing and cryptography mechanisms, 
+but not defining specific authentication, signing, or cryptography mechanisms. (See 
+"Out of Scope".)          
           </li> 
           <li>    
-With the initial <a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a> document as 
-input, the WG will produce a NOTE at the end of the process that is a refined Use Cases document.
+With the initial <a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a> 
+document as input, the WG will produce a NOTE at the end of the process that is 
+a refined Use Cases document.
           </li>
         </ol>
 
@@ -281,12 +290,21 @@ addressed by this Working Group.
             </p>
 
             <ul>
-              <li>Authentication or Authorization Protocols</li>
-              <li>Browser APIs</li>
-              <li>Specific Implementations of DID Methods and Protocols</li>
-              <li>"Solving Identity" on the Web</li>
-              <li>Defining specific authentication, signing or cryptography mechanisms. Scope is 
-                limited to defining extension points for these mechanisms (See "Scope".)</li>
+              <li>
+Authentication or Authorization Protocols
+              </li>
+              <li>
+Browser APIs
+              </li>
+              <li>
+Specific Implementations of DID Methods and Protocols
+              </li>
+              <li>
+"Solving Identity" on the Web
+              </li>
+              <li>
+Defining specific authentication, signing, or cryptography mechanisms. Scope is 
+limited to defining extension points for these mechanisms. (See "Scope".)</li>
             </ul>
         </div>
 
@@ -301,8 +319,8 @@ is expected to have
 
           <ul>
             <li>
-<a href="https://www.w3.org/Consortium/Process/#implementation-experience">At least two independent implementations</a>
-of each of feature defined in the specification, and
+<a href="https://www.w3.org/Consortium/Process/#implementation-experience">At least two
+independent implementations</a> of each of feature defined in the specification, and
             </li>
             <li>
 a section detailing any known security or privacy implications for implementers,
@@ -341,7 +359,7 @@ Decentralized Identifiers (DIDs) are a new type of identifier for verifiable,
 decentralized digital identity, fully under the control of the DID
 subject, and independent of any centralized registry, identity provider, or
 certificate authority. DIDs are URLs that relate a DID subject to means for
-trustable interactions with that subject. DIDs resolve to DID Documents —
+trustable interactions with that subject. DIDs resolve to DID Documents &mdash;
 simple documents that describe how to use that specific DID. Each DID Document
 may express cryptographic material, verification methods, and/or service
 endpoints. These provide a set of mechanisms which enable a DID controller to
@@ -370,10 +388,10 @@ to spin off sections into separate Recommendations.
 
         <div id="wg-other-deliverables">
           <h3>
-            Other Deliverables
+Other Deliverables
           </h3>
           <p>
-            Other non-normative documents may be created such as:
+Other non-normative documents may be created such as:
           </p>
           <dl>
             <dt id="syntax" class="spec">Decentralized Identifier Use Cases v1.0</dt>
@@ -409,8 +427,9 @@ principles of decentralization.
           <table class="roadmap">
               <tfoot>
               <tr>
-                  <td colspan="5" rowspan="1">Note: The group will document significant changes from this 
-                      initial schedule on the group home page.
+                  <td colspan="5" rowspan="1">
+Note: The group will document significant changes from this initial schedule
+on the group home page.
                   </td>
               </tr>
               </tfoot>
@@ -418,34 +437,56 @@ principles of decentralization.
               <tr>
                   <th rowspan="1" colspan="1">Specification</th>
                   <th rowspan="1" colspan="1">
-                      <abbr title="First Working Draft">FPWD</abbr>
+<abbr title="First Working Draft">FPWD</abbr>
                   </th>
                   <th rowspan="1" colspan="1">
-                      <abbr title="Candidate Recommendation">CR</abbr>
+<abbr title="Candidate Recommendation">CR</abbr>
                   </th>
                   <th rowspan="1" colspan="1">
-                      <abbr title="Proposed Recommendation">PR</abbr>
+<abbr title="Proposed Recommendation">PR</abbr>
                   </th>
                   <th rowspan="1" colspan="1">
-                      <abbr title="Recommendation">Rec</abbr>
+<abbr title="Recommendation">Rec</abbr>
                   </th>
               </tr>
               <tr>
-                  <th rowspan="1" colspan="1">Decentralized Identifier Use Cases &amp; Requirements (NOTE)</th>
-                  <td class="WD1" rowspan="1" colspan="3">May 2019</td>
-                  <td class="REC" rowspan="1" colspan="3">December 2020</td>
+                  <th rowspan="1" colspan="1">
+Decentralized Identifier Use Cases &amp; Requirements (NOTE)
+                  </th>
+                  <td class="WD1" rowspan="1" colspan="3">
+May 2019
+                  </td>
+                  <td class="REC" rowspan="1" colspan="3">
+December 2020
+                  </td>
               </tr>
               <tr>
-                  <th rowspan="1" colspan="1">Decentralized Characteristics Rubric</th>
-                  <td class="WD1" rowspan="1" colspan="3">June 2019</td>
-                  <td class="REC" rowspan="1" colspan="3">December 2020</td>
+                  <th rowspan="1" colspan="1">
+Decentralized Characteristics Rubric
+                  </th>
+                  <td class="WD1" rowspan="1" colspan="3">
+June 2019
+                  </td>
+                  <td class="REC" rowspan="1" colspan="3">
+December 2020
+                  </td>
               </tr>
               <tr>
-                  <th rowspan="1" colspan="1">Decentralized Identifiers Data Model and Syntax(es)</th>
-                  <td class="WD1" rowspan="1" colspan="1">June 2019</td>
-                  <td class="CR" rowspan="1" colspan="1">January 2020</td>
-                  <td class="PR" rowspan="1" colspan="1">July 2020</td>
-                  <td class="REC" rowspan="1" colspan="1">December 2020</td>
+                  <th rowspan="1" colspan="1">
+Decentralized Identifiers Data Model and Syntax(es)
+                  </th>
+                  <td class="WD1" rowspan="1" colspan="1">
+June 2019
+                  </td>
+                  <td class="CR" rowspan="1" colspan="1">
+January 2020
+                  </td>
+                  <td class="PR" rowspan="1" colspan="1">
+July 2020
+                  </td>
+                  <td class="REC" rowspan="1" colspan="1">
+December 2020
+                  </td>
               </tr>
               </tbody>
           </table>
@@ -458,11 +499,12 @@ principles of decentralization.
         <h2>Coordination</h2>
         <p>
 For all specifications, this Working Group will seek 
-<a href="https://www.w3.org/Guide/Charter.html#horizontal-review">horizontal review</a> for 
-accessibility, internationalization, performance, privacy, and security with the relevant 
-Working and Interest Groups, and with the 
+<a href="https://www.w3.org/Guide/Charter.html#horizontal-review">horizontal review</a> 
+for accessibility, internationalization, performance, privacy, and security with the 
+relevant Working and Interest Groups, and with the 
 <a href="https://www.w3.org/2001/tag/" title="Technical Architecture Group">TAG</a>. 
-Invitation for review must be issued during each major standards-track document transition, including 
+Invitation for review must be issued during each major standards-track document 
+transition, including 
 <a href="https://www.w3.org/Consortium/Process//#RecsWD" title="First Public Working Draft">FPWD</a> 
 and at least 3 months before 
 <a href="https://www.w3.org/Consortium/Process/#RecsCR" title="Candidate Recommendation">CR</a>, 
@@ -484,15 +526,17 @@ Additional technical coordination with the following Groups will be made, per th
                 <dt>
                     <a href="https://schema.org">Schema.org</a>
                 </dt>
-                <dd>Schema.org should be regularly solicited for reviews and comments on the 
-                  advancement of the JSON-LD 1.1 Recommendation.</dd>
+                <dd>
+Schema.org should be regularly solicited for reviews and comments on the advancement 
+of the JSON-LD 1.1 Recommendation.
+                </dd>
             </dl>
         </div> -->
       </section>
 
       <section class="participation">
         <h2 id="participation">
-          Participation
+Participation
         </h2>
         <p>
 To be successful, this Working Group is expected to have 6 or more active participants for its 
@@ -519,7 +563,7 @@ submissions for consideration upon their agreement to the terms of the
 
      <section id="communication">
         <h2>
-          Communication
+Communication
         </h2>
         <p id="public">
 Technical discussions for this Working Group are conducted in 
@@ -574,11 +618,13 @@ and record a decision along with any objections.
 To afford asynchronous decisions and organizational deliberation, any resolution (including 
 publication decisions) taken in a face-to-face meeting or teleconference will be considered 
 provisional.
-
+        </p>
+        <p>
 A call for consensus (CfC) will be issued for all resolutions (for example, via email and/or 
 web-based survey), with a response period from one week to 10 working days, depending on the 
 chair's evaluation of the group consensus on the issue.
-
+        </p>
+        <p>
 If no objections are raised on the mailing list by the end of the response period, the 
 resolution will be considered to have consensus as a resolution of the Working Group.
         </p>
@@ -601,9 +647,10 @@ Patent Policy
 This Working Group operates under the 
 <a href="https://www.w3.org/Consortium/Patent-Policy-20170801/">W3C Patent Policy</a> 
 (Version of 5 February 2004 updated 1 August 2017). To promote the widest adoption of 
-Web standards, W3C seeks to issue Recommendations that can be implemented, according to 
-this policy, on a Royalty-Free basis.
-
+Web standards, W3C seeks to issue Recommendations that can be implemented, according 
+to this policy, on a Royalty-Free basis.
+        </p>
+        <p>
 For more information about disclosure obligations for this group, please see the 
 <a href="https://www.w3.org/2004/01/pp-impl/">W3C Patent Policy Implementation</a>.
         </p>
@@ -649,55 +696,55 @@ The following table lists details of all changes from the initial charter, per t
             <tbody>
               <tr>
                 <th>
-                  Charter Period
+Charter Period
                 </th>
                 <th>
-                  Start Date
+Start Date
                 </th>
                 <th>
-                  End Date
+End Date
                 </th>
                 <th>
-                  Changes
+Changes
                 </th>
               </tr>
               <tr>
                 <th>
-                  <a href="https://www.w3.org/2018/03/jsonld-wg-charter.html">Initial Charter</a>
+<a href="https://www.w3.org/2018/03/jsonld-wg-charter.html">Initial Charter</a>
                 </th>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
-                  <i class="todo">none</i>
+<i class="todo">none</i>
                 </td>
               </tr>
               <tr>
                 <th>
-                  <a class="todo" href="">Charter Extension</a>
+<a class="todo" href="">Charter Extension</a>
                 </th>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
-                  <i class="todo">none</i>
+<i class="todo">none</i>
                 </td>
               </tr>
               <tr>
                 <th>
-                  <a class="todo" href="">Rechartered</a>
+<a class="todo" href="">Rechartered</a>
                 </th>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
-                  <i class="todo">[dd monthname yyyy]</i>
+<i class="todo">[dd monthname yyyy]</i>
                 </td>
                 <td>
                   <p class="todo">
@@ -721,14 +768,12 @@ of recognition.
       </address>
 
       <p class="copyright">
-<a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> ©
-2018
+<a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2018
 <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>
 (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
 <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
 <a href="https://www.keio.ac.jp/">Keio</a>,
 <a href="http://ev.buaa.edu.cn/">Beihang</a>), All Rights Reserved.
-
 <abbr title="World Wide Web Consortium">W3C</abbr> 
 <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, 
 <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and 
