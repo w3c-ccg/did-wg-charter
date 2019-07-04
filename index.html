@@ -178,21 +178,14 @@ Finally, there are a set of
 <a href="https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/self-sovereign-identity-principles.md">Self-Sovereign Identity Principles</a>
 that have influenced the direction of this work.
       </p>
-      
-      <p>
-The pattern for the DID spec is the URI spec (RFC 3986). That spec defines the generic
-syntax for URIs, and all URI schemes are separate specs (in fact, the DID spec is one
-of those specs, i.e., a fully RFC 3986 conformant URI scheme). The goal of the DID spec
-is to do exactly the same for DIDs, i.e., for this WG to define the generic DID spec,
-and then for others to define DID method specs.
-      </p>
 
       <p class="mission">
 The <strong>mission</strong> of the
 <a href="https://www.w3.org/2019/did-wg/">Decentralized Identifier Working Group</a>
-is to standardize the DID URI scheme as well as the data model and syntax of Decentralized
-Identifier Documents, which contain information related to DIDs that enable the
-aforementioned initial use cases.
+is to standardize the DID URI scheme, the data model and syntax of DID
+Documents, which contain information related to DIDs that enable the
+aforementioned initial use cases, and the requirements for DID Method
+specifications.
       </p>
 
       <div class="noprint">
@@ -208,7 +201,7 @@ aforementioned initial use cases.
 Start date
             </th>
             <td>
-15 April 2019
+September 2019
             </td>
           </tr>
           <tr id="Duration">
@@ -216,7 +209,7 @@ Start date
 End date
             </th>
             <td>
-15 April 2021
+September 2021
             </td>
           </tr>
 
@@ -256,6 +249,16 @@ no more than 3 per year.
         <h2>Scope</h2>
 
         <p>
+The design approach for the DID specification is the same as the
+URI specification (<a href="https://tools.ietf.org/html/rfc3986">RFC 3986</a>).
+RFC 3986 defines the generic syntax for URIs, and all URI schemes are separate
+specifications. In fact, the DID specification is a conformant URI scheme.
+The goal of the DID specification is to do exactly the same for DIDs, that is,
+for this Working Group to define the generic DID specification, and then for
+others to define DID Method specifications.
+        </p>
+
+        <p>
 The Working Group will:
         </p>
         <ol>
@@ -278,7 +281,7 @@ adherence to principles of decentralization.
           </li>
           <li>
 Concentrate their efforts on the initial <a href="https://w3c-ccg.github.io/did-use-cases/">use cases</a>
-with a particular focus on enabling future specification and implementation of Identity and Access 
+with a particular focus on enabling future specification and implementation of Identity and Access
 Management. Use cases from other industries may be included if there is significant industry participation.
           </li>
           <li>
@@ -371,9 +374,10 @@ The Decentralized Identifier Working Group will deliver the following W3C normat
             <dd>
               <p>
 Decentralized Identifiers (DIDs) are a new type of identifier for verifiable,
-decentralized digital identity, typically under the control of the DID
-subject, and independent of any centralized registry, identity provider, or
-certificate authority. DIDs are URLs that relate a DID subject to means for
+decentralized digital identity. These new identifiers are designed to enable
+the controller of a DID to prove control over it and to be implemented
+independently of any centralized registry, identity provider, or certificate
+authority. DIDs are URLs that relate a DID subject to means for
 trustable interactions with that subject. DIDs resolve to DID Documents &mdash;
 simple documents that describe how to use that specific DID. Each DID Document
 may express cryptographic material, verification methods, and/or service
